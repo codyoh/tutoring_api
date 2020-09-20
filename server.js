@@ -8,7 +8,7 @@ app.use(cors())
 // chats = []
 
 io.on('connection', (socket) => {
-
+    console.log("new connection")
     // chats.push(socket.id)
 
     // console.log(chats)
